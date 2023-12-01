@@ -11,6 +11,8 @@ public class MovementScript : MonoBehaviour
     private float velocityX;
     private float velocityY;
     private float velocityZ;
+    [SerializeField] MenuManager menuManager;
+    private bool isCrafting;
 
     private Rigidbody rb;
 
@@ -19,11 +21,18 @@ public class MovementScript : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
+    private void Update()
+    {
+        isCrafting = menuManager.isCMenuActive;
+    }
+
     void FixedUpdate()
     {
-        InputManager();
-        PlayerMovement();
+        if (!isCrafting)
+        {
+            InputManager();
+            PlayerMovement();
+        }
 
     }
 
