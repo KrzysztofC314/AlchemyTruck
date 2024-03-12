@@ -10,8 +10,7 @@ public class CraftingManager : MonoBehaviour
     public Slot[] craftingSlots;
 
     public List<Item> itemList;
-    public string[] recipes;
-    public Item[] recipeResults;
+    public Recipe[] recipes;
     public Slot resultSlot;
 
     private void Update()
@@ -50,9 +49,9 @@ public class CraftingManager : MonoBehaviour
         resultSlot.item = null;
 
         string currentRecipeString = "";
-        foreach(Item item in itemList)
+        foreach (Item item in itemList)
         {
-            if(item != null)
+            if (item != null)
             {
                 currentRecipeString += item.itemName;
             }
@@ -64,11 +63,16 @@ public class CraftingManager : MonoBehaviour
 
         for (int i = 0; i< recipes.Length; i++)
         {
-            if (recipes[i] == currentRecipeString)
+            recipes[i].GetRecipeCode();
+            Debug.Log("Looking for recipe");
+            Debug.Log(recipes[i].recipeCode+"/"+currentRecipeString);
+
+            if (recipes[i].recipeCode == currentRecipeString)
             {
+                Debug.Log("Recipe Found!");
                 resultSlot.gameObject.SetActive(true);
-                resultSlot.GetComponent<Image>().sprite = recipeResults[i].GetComponent<Image>().sprite;
-                resultSlot.item = recipeResults[i];
+                resultSlot.GetComponent<Image>().sprite = recipes[i].result.GetComponent<Image>().sprite;
+                resultSlot.item = recipes[i].result;
             }
         }
     }

@@ -2221,13 +2221,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   recipes:
-  - nullnullaloepomegranate
-  - nullnullpomegranatealoe
-  - aloealoealoealoe
-  recipeResults:
-  - {fileID: 8226239977140527300, guid: f7081c2e5cb583942910af20acaa751e, type: 3}
-  - {fileID: 8226239977140527300, guid: f7081c2e5cb583942910af20acaa751e, type: 3}
-  - {fileID: 8226239977140527300, guid: f7081c2e5cb583942910af20acaa751e, type: 3}
+  - {fileID: 11400000, guid: 9e8b8875c402e464888a281712fc4f87, type: 2}
+  - {fileID: 11400000, guid: 25499e57eae31624ba7333bfae21c0e8, type: 2}
   resultSlot: {fileID: 197638248}
 --- !u!4 &1660029603
 Transform:
