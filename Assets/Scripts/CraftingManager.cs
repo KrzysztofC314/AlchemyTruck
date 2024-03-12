@@ -37,6 +37,7 @@ public class CraftingManager : MonoBehaviour
                 nearestSlot.gameObject.SetActive(true);
                 nearestSlot.GetComponent<Image>().sprite = currentItem.GetComponent<Image>().sprite;
                 nearestSlot.item = currentItem;
+                itemList[nearestSlot.index] = currentItem;
                 currentItem = null;
                 CheckForCreatedRecipes();
             }
