@@ -15,7 +15,7 @@ MonoBehaviour:
   recipe:
   - {fileID: 4944840113424761877, guid: a94da9b75dcada24789f4b46cf8cf3f9, type: 3}
   - {fileID: 6382112483022558298, guid: fa62ced3a7ef8a2468737b6b447355f6, type: 3}
-  - {fileID: 0}
+  - {fileID: 4821970883200662000, guid: b21751a499f8110428338163cd573362, type: 3}
   - {fileID: 2506183835393599745, guid: 23dbeb8bf45e42c4e95f523aa2093391, type: 3}
   result: {fileID: 372745505590567560, guid: d003e7115adbaea4f819c3f7962cc44d, type: 3}
   recipeCode: garlicpasteonionnullbigjar
