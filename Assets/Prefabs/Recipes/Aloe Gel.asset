@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bea2d592c9f9814785ca300cf2bbbf6, type: 3}
+  m_Name: Aloe Gel
+  m_EditorClassIdentifier: 
+  recipe:
+  - {fileID: 7036067970237494985, guid: 69dfa3e49c88de747a2a30e7e7567112, type: 3}
+  - {fileID: 7036067970237494985, guid: 69dfa3e49c88de747a2a30e7e7567112, type: 3}
+  - {fileID: 7036067970237494985, guid: 69dfa3e49c88de747a2a30e7e7567112, type: 3}
+  - {fileID: 4213833340518462194, guid: 8a471d07806a2b148ac27f4b600ad670, type: 3}
+  result: {fileID: 6714116974303986284, guid: 81b42f472cf89634b8fa7c740e917333, type: 3}
+  recipeCode: 

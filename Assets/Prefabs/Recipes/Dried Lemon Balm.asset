@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9bea2d592c9f9814785ca300cf2bbbf6, type: 3}
-  m_Name: Healing Gel2
+  m_Name: Dried Lemon Balm
   m_EditorClassIdentifier: 
   recipe:
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 3922831523788309343, guid: 62ed5d66ca67a544abe54c65820cbe0f, type: 3}
-  - {fileID: 7036067970237494985, guid: 69dfa3e49c88de747a2a30e7e7567112, type: 3}
-  result: {fileID: 8226239977140527300, guid: f7081c2e5cb583942910af20acaa751e, type: 3}
-  recipeCode: nullnullpomegranatealoe
+  - {fileID: 0}
+  - {fileID: 6869232296051184355, guid: 1e451cc6cf37574478f22cc530af1a0a, type: 3}
+  result: {fileID: 2135431336264894428, guid: 2fd8bf0d4c62e284291c6b8dfad85740, type: 3}
+  recipeCode: nullnullnulllemonbalm
