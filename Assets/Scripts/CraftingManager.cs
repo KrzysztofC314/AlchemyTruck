@@ -34,7 +34,7 @@ public class CraftingManager : MonoBehaviour
                     }
                 }
                 nearestSlot.gameObject.SetActive(true);
-                nearestSlot.GetComponent<Image>().sprite = currentItem.GetComponent<Image>().sprite;
+                //nearestSlot.GetComponent<Image>().sprite = currentItem.GetComponent<Image>().sprite;
                 nearestSlot.item = currentItem;
                 itemList[nearestSlot.index] = currentItem;
                 currentItem = null;
@@ -71,7 +71,7 @@ public class CraftingManager : MonoBehaviour
             {
                 Debug.Log("Recipe Found!");
                 resultSlot.gameObject.SetActive(true);
-                resultSlot.GetComponent<Image>().sprite = recipes[i].result.GetComponent<Image>().sprite;
+                //resultSlot.GetComponent<Image>().sprite = recipes[i].result.GetComponent<Image>().sprite;
                 resultSlot.item = recipes[i].result;
             }
         }
@@ -91,7 +91,7 @@ public class CraftingManager : MonoBehaviour
         {
             currentItem = item;
             customCursor.gameObject.SetActive(true);
-            customCursor.sprite = currentItem.GetComponent<Image>().sprite;
+            //customCursor.sprite = currentItem.GetComponent<Image>().sprite;
         }
     }
 }

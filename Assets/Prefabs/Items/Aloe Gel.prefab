@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6062687415574832516}
   - component: {fileID: 4483899552593531952}
   - component: {fileID: 6062494661506487069}
-  - component: {fileID: 6714116974303986284}
   - component: {fileID: 7999267506547608060}
   m_Layer: 5
   m_Name: Aloe Gel
@@ -78,19 +77,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &6714116974303986284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8408503506608075704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c39d7100080751e43af7ad6828ba527f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: aloegel
 --- !u!114 &7999267506547608060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,7 +99,7 @@ MonoBehaviour:
           m_MethodName: OnMouseDownItem
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 6714116974303986284}
+            m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: Item, Assembly-CSharp
             m_IntArgument: 0
             m_FloatArgument: 0

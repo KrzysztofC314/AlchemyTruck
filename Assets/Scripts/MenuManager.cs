@@ -5,6 +5,7 @@ using UnityEngine;
 public class MenuManager : MonoBehaviour
 {
     [SerializeField] private GameObject craftingMenu;
+    [SerializeField] private InventoryManager inventoryManager;
     [HideInInspector] public bool isCMenuActive;
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class MenuManager : MonoBehaviour
         {
             isCMenuActive = !isCMenuActive;
             craftingMenu.SetActive(isCMenuActive);
+            inventoryManager.ListItems();
         }
     }
 }
