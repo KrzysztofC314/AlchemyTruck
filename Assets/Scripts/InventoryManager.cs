@@ -20,12 +20,25 @@ public class InventoryManager : MonoBehaviour
 
     public void Add(Item item)
     {
-        Items.Add(item);
+        item.value++;
+        if(item.value <= 1)
+        {
+            Items.Add(item);
+        }
+        ListItems();
     }
 
     public void Remove(Item item)
     {
-        Items.Remove(item);
+        if(item.value > 0)
+        {
+            item.value--;
+            if(item.value <= 0)
+            {
+                Items.Remove(item);
+            }
+        }
+        ListItems();
     }
 
     public void ListItems()
@@ -36,12 +49,19 @@ public class InventoryManager : MonoBehaviour
         }
         foreach(var item in Items)
         {
-            GameObject obj = Instantiate(InventoryItem, ItemContent);
-            var itemName = obj.transform.Find("ItemName").GetComponent<TMPro.TextMeshProUGUI>();
-            var itemIcon = obj.transform.Find("Image").GetComponent<Image>();
+            if (item.value > 0)
+            {
+                GameObject obj = Instantiate(InventoryItem, ItemContent);
+                var itemName = obj.transform.Find("ItemName").GetComponent<TMPro.TextMeshProUGUI>();
+                var itemIcon = obj.transform.Find("Image").GetComponent<Image>();
+                var itemValue = obj.transform.Find("ItemValue").GetComponent<TMPro.TextMeshProUGUI>();
+                ItemBag itemBag = obj.GetComponent<ItemBag>();
 
-            itemName.text = item.itemName;
-            itemIcon.sprite = item.icon;
+                itemBag.item = item;
+                itemName.text = item.itemName;
+                itemIcon.sprite = item.icon;
+                itemValue.text = item.value.ToString();
+            }
         }
     }
 }

@@ -15,7 +15,7 @@ MonoBehaviour:
   recipe:
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 943121017200214539, guid: 3f651ba38ad4e5a418aab977534486f0, type: 3}
-  - {fileID: 2135431336264894428, guid: 2fd8bf0d4c62e284291c6b8dfad85740, type: 3}
-  result: {fileID: 6912126253143173623, guid: 548e907be6e6f91449f7f6b25b1c310e, type: 3}
+  - {fileID: 11400000, guid: 584ced4e23ef16944900ea760b58a643, type: 2}
+  - {fileID: 11400000, guid: a06e449d12e780544b98a7d2876586b6, type: 2}
+  result: {fileID: 11400000, guid: ebf4ee6da7cc9dd4ebc52858f34f6c49, type: 2}
   recipeCode: nullnulldriedlavenderdriedlemonbalm

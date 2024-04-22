@@ -15,7 +15,7 @@ MonoBehaviour:
   recipe:
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 3922831523788309343, guid: 62ed5d66ca67a544abe54c65820cbe0f, type: 3}
-  - {fileID: 3922831523788309343, guid: 62ed5d66ca67a544abe54c65820cbe0f, type: 3}
-  result: {fileID: 8770129899471086106, guid: 491e2e22b0e242d4a9ea050ec9d6d2ed, type: 3}
+  - {fileID: 11400000, guid: efc09501493ed7c44a617153b2d95cb3, type: 2}
+  - {fileID: 11400000, guid: efc09501493ed7c44a617153b2d95cb3, type: 2}
+  result: {fileID: 11400000, guid: 9264bcae573ff3d4d8b9eceff4cacb44, type: 2}
   recipeCode: nullnullpomegranatepomegranate

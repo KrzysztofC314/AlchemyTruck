@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   recipe:
   - {fileID: 0}
-  - {fileID: 8681730130796889227, guid: c5f52108c0a090c4ebcaf1e1cf106acc, type: 3}
+  - {fileID: 11400000, guid: e7365fb6ee100434da1567c6cae67a5a, type: 2}
   - {fileID: 0}
-  - {fileID: 1731484256626472646, guid: 4653e621f655a6a48a12bbb3499e139d, type: 3}
-  result: {fileID: 4944840113424761877, guid: a94da9b75dcada24789f4b46cf8cf3f9, type: 3}
+  - {fileID: 11400000, guid: cec2b37737ba95047bdc292caaf6a848, type: 2}
+  result: {fileID: 11400000, guid: a80463df9e0b28e4a8a9187fb76b795f, type: 2}
   recipeCode: nullgarlicnullsmalljar

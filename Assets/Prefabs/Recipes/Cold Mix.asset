@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Cold Mix
   m_EditorClassIdentifier: 
   recipe:
-  - {fileID: 372745505590567560, guid: d003e7115adbaea4f819c3f7962cc44d, type: 3}
-  - {fileID: 6912126253143173623, guid: 548e907be6e6f91449f7f6b25b1c310e, type: 3}
-  - {fileID: 4213833340518462194, guid: 8a471d07806a2b148ac27f4b600ad670, type: 3}
-  - {fileID: 4213833340518462194, guid: 8a471d07806a2b148ac27f4b600ad670, type: 3}
-  result: {fileID: 4157842427884378508, guid: fbb62c43e8415c44abac73fc9b77f972, type: 3}
+  - {fileID: 11400000, guid: 9d096c61bac2a354b8336f22fd0d5704, type: 2}
+  - {fileID: 11400000, guid: ebf4ee6da7cc9dd4ebc52858f34f6c49, type: 2}
+  - {fileID: 11400000, guid: b12a6a93b13e52942bde1ad678712b3a, type: 2}
+  - {fileID: 11400000, guid: b12a6a93b13e52942bde1ad678712b3a, type: 2}
+  result: {fileID: 11400000, guid: 24a1a914cf5d0c74bb3ff1edd097f438, type: 2}
   recipeCode: immunityboostsyrupcalmingdecotionmediumjarmediumjar

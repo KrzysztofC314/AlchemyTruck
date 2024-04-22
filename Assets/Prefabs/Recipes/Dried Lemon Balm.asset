@@ -16,6 +16,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 6869232296051184355, guid: 1e451cc6cf37574478f22cc530af1a0a, type: 3}
-  result: {fileID: 2135431336264894428, guid: 2fd8bf0d4c62e284291c6b8dfad85740, type: 3}
+  - {fileID: 11400000, guid: 35eea6b5816d57042b6665e443434317, type: 2}
+  result: {fileID: 11400000, guid: a06e449d12e780544b98a7d2876586b6, type: 2}
   recipeCode: nullnullnulllemonbalm

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Immunity Boost Syrup
   m_EditorClassIdentifier: 
   recipe:
-  - {fileID: 4944840113424761877, guid: a94da9b75dcada24789f4b46cf8cf3f9, type: 3}
-  - {fileID: 6382112483022558298, guid: fa62ced3a7ef8a2468737b6b447355f6, type: 3}
-  - {fileID: 4821970883200662000, guid: b21751a499f8110428338163cd573362, type: 3}
-  - {fileID: 2506183835393599745, guid: 23dbeb8bf45e42c4e95f523aa2093391, type: 3}
-  result: {fileID: 372745505590567560, guid: d003e7115adbaea4f819c3f7962cc44d, type: 3}
+  - {fileID: 11400000, guid: a80463df9e0b28e4a8a9187fb76b795f, type: 2}
+  - {fileID: 11400000, guid: 6744e172b21d17a4e93ccc079ff9f603, type: 2}
+  - {fileID: 11400000, guid: 9ce7f117887ab2748b39ad07c2f494fe, type: 2}
+  - {fileID: 11400000, guid: 8ccde7e1250bb9247a28fc6e26b108e7, type: 2}
+  result: {fileID: 11400000, guid: 9d096c61bac2a354b8336f22fd0d5704, type: 2}
   recipeCode: garlicpasteonionnullbigjar

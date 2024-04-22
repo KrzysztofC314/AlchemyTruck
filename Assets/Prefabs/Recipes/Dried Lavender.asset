@@ -16,6 +16,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 243635531123261833, guid: 9b7f77dde6fd1c141a5544a8640f49ff, type: 3}
-  result: {fileID: 943121017200214539, guid: 3f651ba38ad4e5a418aab977534486f0, type: 3}
+  - {fileID: 11400000, guid: 4e963c52fa27bb04dbc712d19d93cd05, type: 2}
+  result: {fileID: 11400000, guid: 584ced4e23ef16944900ea760b58a643, type: 2}
   recipeCode: nullnullnulllavender
