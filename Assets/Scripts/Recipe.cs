@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(fileName ="New Recipe", menuName ="Crafting/Create New Recipe")]
 public class Recipe : ScriptableObject
 {
     public List<Item> recipe;

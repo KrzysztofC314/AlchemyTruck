@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class CraftingManager : MonoBehaviour
 {
+    public InventoryManager inventoryManager;
     private Item currentItem;
     public Image customCursor;
     public Slot[] craftingSlots;
@@ -15,7 +16,7 @@ public class CraftingManager : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonUp(0))
+        if(Input.GetMouseButtonDown(0))
         {
             if (currentItem != null)
             {
@@ -34,7 +35,7 @@ public class CraftingManager : MonoBehaviour
                     }
                 }
                 nearestSlot.gameObject.SetActive(true);
-                nearestSlot.GetComponent<Image>().sprite = currentItem.GetComponent<Image>().sprite;
+                nearestSlot.GetComponent<Image>().sprite = currentItem.icon;
                 nearestSlot.item = currentItem;
                 itemList[nearestSlot.index] = currentItem;
                 currentItem = null;
@@ -71,8 +72,9 @@ public class CraftingManager : MonoBehaviour
             {
                 Debug.Log("Recipe Found!");
                 resultSlot.gameObject.SetActive(true);
-                resultSlot.GetComponent<Image>().sprite = recipes[i].result.GetComponent<Image>().sprite;
+                resultSlot.GetComponent<Image>().sprite = recipes[i].result.icon;
                 resultSlot.item = recipes[i].result;
+                inventoryManager.Add(resultSlot.item);
             }
         }
     }
@@ -87,11 +89,14 @@ public class CraftingManager : MonoBehaviour
 
     public void OnMouseDownItem(Item item)
     {
-        if (currentItem == null) 
+        Debug.Log("Clicked");
+
+        if (currentItem == null)
         {
             currentItem = item;
             customCursor.gameObject.SetActive(true);
-            customCursor.sprite = currentItem.GetComponent<Image>().sprite;
+            customCursor.sprite = currentItem.icon;
+            inventoryManager.Remove(currentItem);
         }
     }
 }

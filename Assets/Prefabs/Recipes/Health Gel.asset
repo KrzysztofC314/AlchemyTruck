@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Health Gel
   m_EditorClassIdentifier: 
   recipe:
-  - {fileID: 1463293703998857927, guid: b23e8dffee8288d4696837bca533fa6d, type: 3}
-  - {fileID: 6714116974303986284, guid: 81b42f472cf89634b8fa7c740e917333, type: 3}
-  - {fileID: 4213833340518462194, guid: 8a471d07806a2b148ac27f4b600ad670, type: 3}
-  - {fileID: 4213833340518462194, guid: 8a471d07806a2b148ac27f4b600ad670, type: 3}
-  result: {fileID: 8226239977140527300, guid: f7081c2e5cb583942910af20acaa751e, type: 3}
+  - {fileID: 11400000, guid: 1fcf995ddf16d3342924106b767a808b, type: 2}
+  - {fileID: 11400000, guid: 8a20f38e76dc1454e9d9a6a7fffdc765, type: 2}
+  - {fileID: 11400000, guid: b12a6a93b13e52942bde1ad678712b3a, type: 2}
+  - {fileID: 11400000, guid: b12a6a93b13e52942bde1ad678712b3a, type: 2}
+  result: {fileID: 11400000, guid: 3b49a14eff870b34db723064eb9f7928, type: 2}
   recipeCode: pomegranatejuicealoegelmediumjarmediumjar

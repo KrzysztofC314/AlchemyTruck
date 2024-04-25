@@ -9,13 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea2d592c9f9814785ca300cf2bbbf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a71d6314dc8e45419ecd75a4e47168b, type: 3}
   m_Name: Dried Lemon Balm
   m_EditorClassIdentifier: 
-  recipe:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 11400000, guid: 35eea6b5816d57042b6665e443434317, type: 2}
-  result: {fileID: 11400000, guid: a06e449d12e780544b98a7d2876586b6, type: 2}
-  recipeCode: nullnullnulllemonbalm
+  id: 7
+  itemName: driedlemonbalm
+  value: 0
+  icon: {fileID: 21300000, guid: aedd37423bcb88e4fa24ae7a15567734, type: 3}

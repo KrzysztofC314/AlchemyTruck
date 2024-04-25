@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Aloe Gel
   m_EditorClassIdentifier: 
   recipe:
-  - {fileID: 7036067970237494985, guid: 69dfa3e49c88de747a2a30e7e7567112, type: 3}
-  - {fileID: 7036067970237494985, guid: 69dfa3e49c88de747a2a30e7e7567112, type: 3}
-  - {fileID: 7036067970237494985, guid: 69dfa3e49c88de747a2a30e7e7567112, type: 3}
-  - {fileID: 4213833340518462194, guid: 8a471d07806a2b148ac27f4b600ad670, type: 3}
-  result: {fileID: 6714116974303986284, guid: 81b42f472cf89634b8fa7c740e917333, type: 3}
+  - {fileID: 11400000, guid: 3a5d98f5d27da17448c57c98f950b002, type: 2}
+  - {fileID: 11400000, guid: 3a5d98f5d27da17448c57c98f950b002, type: 2}
+  - {fileID: 11400000, guid: 3a5d98f5d27da17448c57c98f950b002, type: 2}
+  - {fileID: 11400000, guid: b12a6a93b13e52942bde1ad678712b3a, type: 2}
+  result: {fileID: 11400000, guid: 8a20f38e76dc1454e9d9a6a7fffdc765, type: 2}
   recipeCode: 
