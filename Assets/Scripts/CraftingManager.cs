@@ -12,6 +12,7 @@ public class CraftingManager : MonoBehaviour
 
     public List<Item> itemList;
     public Recipe[] recipes;
+    public Recipe SavedRecipe;
     public Slot resultSlot;
 
     private void Update()
@@ -71,10 +72,11 @@ public class CraftingManager : MonoBehaviour
             if (recipes[i].recipeCode == currentRecipeString)
             {
                 Debug.Log("Recipe Found!");
+                SavedRecipe = recipes[i];
                 resultSlot.gameObject.SetActive(true);
                 resultSlot.GetComponent<Image>().sprite = recipes[i].result.icon;
                 resultSlot.item = recipes[i].result;
-                inventoryManager.Add(resultSlot.item);
+                //inventoryManager.Add(resultSlot.item);
             }
         }
     }
@@ -96,7 +98,29 @@ public class CraftingManager : MonoBehaviour
             currentItem = item;
             customCursor.gameObject.SetActive(true);
             customCursor.sprite = currentItem.icon;
-            inventoryManager.Remove(currentItem);
+            //inventoryManager.Remove(currentItem);
+        }
+    }
+
+    public void OnClickResultSlot()
+    {
+        
+        if (SavedRecipe != null)
+        {
+            Debug.Log("Pressed");
+            foreach (Item item in SavedRecipe.recipe)
+            {
+                if(item != null)
+                {
+                    inventoryManager.Remove(item);
+                }
+            }
+            inventoryManager.Add(SavedRecipe.result);
+            foreach(Slot slot in craftingSlots)
+            {
+                slot.gameObject.SetActive(false);
+            }
+            resultSlot.gameObject.SetActive(false);
         }
     }
 }
